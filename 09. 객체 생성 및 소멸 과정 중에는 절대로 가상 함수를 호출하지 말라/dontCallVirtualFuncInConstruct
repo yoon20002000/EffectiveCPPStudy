@@ -1,0 +1,42 @@
+﻿class Base
+{
+public:
+    Base()
+    {
+        call();
+    }
+    
+    virtual ~Base()
+    {
+        call();
+    }
+ 
+    virtual void call()
+    {
+        cout << "Base::call"<<endl;
+    }   
+};
+
+class Derived : public Base
+{
+public:
+    Derived()
+    {
+    
+    }
+    ~Derived()
+    {
+    }
+    virtual void call() override
+    {
+        cout <<"Derived::call()"<<endl;
+    }
+}
+
+int main()
+{
+    Derived d;
+}
+
+// Base::call() << Derived::call() 아님!!
+// Base::call() << Derived::call() 아님!!

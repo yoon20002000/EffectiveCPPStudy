@@ -154,7 +154,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="02_#define을 쓰려거든 const, enum, inline을 떠올리자\00_상수 선언 시 초기값\GamePlayer.cpp">
+    <ClCompile Include="02. #define을 쓰려거든 const, enum, inline을 떠올리자\00_상수 선언 시 초기값\GamePlayer.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -229,7 +229,7 @@
       <SDLCheck>true</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
     </ClCompile>
-    <ClCompile Include="02_#define을 쓰려거든 const, enum, inline을 떠올리자\01_정의 시점에 초기값을 넣어야 되는 경우\CostEstimate.cpp">
+    <ClCompile Include="02. #define을 쓰려거든 const, enum, inline을 떠올리자\01_정의 시점에 초기값을 넣어야 되는 경우\CostEstimate.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -304,20 +304,21 @@
       <SDLCheck>true</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
     </ClCompile>
-    <ClCompile Include="02_#define을 쓰려거든 const, enum, inline을 떠올리자\02_나열자 둔갑술\GamePlayer01.cpp" />
+    <ClCompile Include="02. #define을 쓰려거든 const, enum, inline을 떠올리자\02_나열자 둔갑술\GamePlayer01.cpp" />
     <ClCompile Include="EffectiveCPPStudy.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="02_#define을 쓰려거든 const, enum, inline을 떠올리자\00_상수 선언 시 초기값\GamePlayer.h" />
-    <ClInclude Include="02_#define을 쓰려거든 const, enum, inline을 떠올리자\01_정의 시점에 초기값을 넣어야 되는 경우\CostEstimate.h" />
-    <ClInclude Include="02_#define을 쓰려거든 const, enum, inline을 떠올리자\02_나열자 둔갑술\GamePlayer01.h" />
-    <ClInclude Include="03_const를 붙일수 있다면 최대한 붙여보자\TextBlock.h" />
-    <ClInclude Include="08.예외가 소멸자를 떠나지 못하도록 붙들어 놓자\DBConnEx.cpp" />
+    <ClInclude Include="02. #define을 쓰려거든 const, enum, inline을 떠올리자\00_상수 선언 시 초기값\GamePlayer.h" />
+    <ClInclude Include="02. #define을 쓰려거든 const, enum, inline을 떠올리자\01_정의 시점에 초기값을 넣어야 되는 경우\CostEstimate.h" />
+    <ClInclude Include="02. #define을 쓰려거든 const, enum, inline을 떠올리자\02_나열자 둔갑술\GamePlayer01.h" />
+    <ClInclude Include="03. const를 붙일수 있다면 최대한 붙여보자\TextBlock.h" />
+    <ClInclude Include="08. 예외가 소멸자를 떠나지 못하도록 붙들어 놓자\DBConnEx.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="02_#define을 쓰려거든 const, enum, inline을 떠올리자\03_함수처럼 쓰는 매크로보다 inline 함수를 생각해라\useInlineFunc.h" />
-    <Content Include="04_객체 사용시 반드시 초기화 하라\useConstructor.h" />
+    <Content Include="02. #define을 쓰려거든 const, enum, inline을 떠올리자\03_함수처럼 쓰는 매크로보다 inline 함수를 생각해라\useInlineFunc.h" />
+    <Content Include="04. 객체 사용시 반드시 초기화 하라\useConstructor.h" />
     <Content Include="06. 컴파일러가 만들어낸 함수가 필요없으면 확실히 이들의 사용을 금해라\UncopyableEx.h" />
+    <Content Include="09. 객체 생성 및 소멸 과정 중에는 절대로 가상 함수를 호출하지 말라\dontCallVirtualFuncInConstruct" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
